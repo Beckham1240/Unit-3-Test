@@ -3,7 +3,17 @@ form p{
     width: 50%;
 }
 body{
+    margin-top: 6%;
     vertical-align: middle;
+    background-color: rgb(122, 61, 61);
+    height: 60%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    border: solid 5px rgb(219, 146, 50);
+    border-radius: 20px;
+    box-shadow: black 20px 20px 20px;
 }
 html{
     background: radial-gradient( aqua, teal, black);
@@ -13,22 +23,30 @@ html{
 }
 input{
     background-color: rgb(233, 164, 16);
-    color: indigo;
-    border: 2px solid  indigo;
-    box-shadow: indigo 3px 3px 3px;
+    color: rgb(219, 146, 50);
+    border: 2px solid  rgb(219, 146, 50);
+    box-shadow: rgb(219, 146, 50) 3px 3px 3px;
     
 }
-
 button{
     background-color: rgb(219, 146, 50);
     color:  (41, 23, 0);
     border: 2px solid  black;
     margin: 2px;
     font-size: 15px;
-    box-shadow: indigo 3px 3px 3px;
+    box-shadow: black 3px 3px 3px;
 }
 form, p{
     color:rgb(236, 178, 71);
     font-size: 20px;
     text-shadow: black 2px 2px 2px;
+}
+form{
+    border: 2px solid rgb(219, 146, 50);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    border-radius: 20px;
+    background-color: teal;
 }
